@@ -1,2 +1,2 @@
 # Weather-App
-Simple weather app built using react
+Simple weather app built using ReactJS
