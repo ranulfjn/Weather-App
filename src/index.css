@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search-container {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.search-bar {
+  color: black;
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: solid;
+  outline: none;
+  appearance: none;
+  border-radius: 15px 15px 15px 15px;
+
+}
+
+
+.location-container {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.location-container .date {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+ 
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.weather-container .temperature {
+  color: rgb(0, 0, 0);
+  position: relative;
+  margin: 10px auto;
+  padding: 15px 25px;
+  font-size: 100px;
+  font-weight: 700;
+  border-radius: 16px;
+ 
+}
+
+.weather-container .weather {
+  color: rgb(0, 0, 0);
+  position: relative;
+  padding: 15px 25px;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 16px;
+}
+
+.wind{
+  color: rgb(0, 0, 0);
+  position: relative;
+  padding: 15px 25px;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 16px;
+}
+
+.weather-container .temperature-feels  {
+  color: rgb(0, 0, 0);
+  position: relative;
+  padding: 15px 25px;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 16px;
+}
+
+.weather-container  .temperature-min_max {
+  color: rgb(0, 0, 0);
+  position: relative;
+  padding: 15px 25px;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 16px;
+}
+ img{
+   width: 175px;
+ }
